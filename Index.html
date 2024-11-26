@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/a171b6ee1c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="bg-light">
+    <!-- navbar starts -->
+    <nav class="navbar navbar-light fixed-top bg-light shadow-sm">
+      <div class="container-lg">
+        <a class="navbar-brand text-danger fw-bold fs-4" href="#">A.K</a>
+        <div class="dropdown">
+          <button
+            class="btn btn-secondary btn-danger px-3"
+            type="button "
+            id="dropdownMenuButton"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bars"></i>
+          </button>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="dropdownMenuButton"
+          >
+            <li><a class="dropdown-item" href="#home">Home</a></li>
+            <li><a class="dropdown-item" href="#about">About</a></li>
+            <li><a class="dropdown-item" href="#services">Services</a></li>
+            <li><a class="dropdown-item" href="#portifolio">Portifolio</a></li>
+
+            <li><a class="dropdown-item" href="#contacts">Contacts</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- navbar ends -->
+
+    <!-- Home Sextion starts -->
+    <section class="home py-5" id="home">
+      <div class="container-lg">
+        <div class="row min-vh-100 align-items-center align-content-center">
+          <!-- Left Part -->
+          <div class="col-md-6">
+            <div class="home-img text-center">
+              <img
+                src="img/akr2.jpg"
+                class="rounded-circle mw-100"
+                alt="profile image"
+              />
+            </div>
+          </div>
+
+          <!-- Right part -->
+          <div class="col-md-6 mt-5 mt-md-0 order-md-first">
+            <div class="home-text">
+              <p>Hello I'm</p>
+              <h1 class="text-danger text-uppercase fs-1 fw-bold">
+                Software Developer
+              </h1>
+              <h2 class="fs-4">Arpit Kumar</h2>
+              <!-- <p class="mt-4 text-muted">
+                
+              </p> -->
+              <a class="btn btn-danger px-3 mt-3" href="#portifolio">My work</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Home section ends -->
+
+    <!-- About Section starts -->
+    <!-- About Section starts -->
+    <section class="about bg-white py-5" id="about">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">About Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="about-text">
+              <h3 class="fs-4 mb-3">
+                Problem Solver, Exploratory, Tech fanatic.
+              </h3>
+              <p class="text-muted">
+                I'm Arpit Kumar, a passionate software engineer with a strong foundation in coding and problem-solving. Recently graduated in B.tech from Aajay Kumar Garg Engineering College, (G.Z.B), I’m eager to apply my skills in web development and ReactJs. I'm dedicated to continuous learning and creating impactful solutions in technology.
+               
+              </p>
+            </div>
+            <div class="row text-center text-uppercase my-3">
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">10</h4>
+                  <p class="text-muted">Projects Completed</p>
+                </div>
+              </div>
+              <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">150+</h4>
+                  <p class="text-muted">Coding Problems solved</p>
+                </div>
+              </div>
+              <!-- <div class="col-sm-4">
+                <div class="fact-item">
+                  <h4 class="fs-1 fw-bold">95</h4>
+                  <p class="text-muted">Positive Reviews</p>
+                </div>
+              </div> -->
+            </div>
+
+            <div class="row">
+              <div class="col-lg-12 d-flex align-items-center">
+                <a href="#" class="btn btn-danger me-5 text-decoration-none"
+                  >Download CV</a
+                >
+                <div class="social-links">
+                  <a href="https://github.com/arpit28-hub" class="text-dark me-2 text-decoration-none">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                  <a href="#" class="text-dark me-2 text-decoration-none">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                  <a href="#" class="text-dark me-2 text-decoration-none">
+                    <i class="fab fa-instagram"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/in/arpit-kumar-13402a273" class="text-dark me-2 text-decoration-none">
+                    <i class="fab fa-linkedin-in"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row col-md-6 mt-5 mt-md-0">
+            <div class="skill-item">
+              <ul class="nav nav-tabs text" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active fw-bold"
+                    id="skills-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#skills"
+                    type="button"
+                    role="tab"
+                    aria-controls="skills"
+                    aria-selected="true"
+                  >
+                    Skills
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link fw-bold"
+                    id="academic-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#academic"
+                    type="button"
+                    role="tab"
+                    aria-controls="academic"
+                    aria-selected="false"
+                  
+                  >
+                    Academic
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link fw-bold"
+                    id="experience-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#experience"
+                    type="button"
+                    role="tab"
+                    aria-controls="experience"
+                    aria-selected="false"
+                  >
+                    Experience
+                  </button>
+                </li>
+              </ul>
+
+              <div class="tab-content p-3 border border-top-0">
+                <div
+                  class="tab-pane fade show active"
+                  id="skills"
+                  role="tabpanel"
+                  aria-labelledby="skills-tab"
+                >
+                  <!-- **********skills*********** -->
+                  <!-- <h3>Skills</h3> -->
+                  <div>
+                    <div>
+                      <h3 class="fs-5">Html</h3>
+                      <div
+                        class="progress"
+                        role="progressbar"
+                        aria-label="Example 20px high"
+                        aria-valuenow="25"
+                        aria-valuemin="0"
+                        aria-valuemax="100"
+                        style="height: 5px"
+                      >
+                        <div
+                          class="progress-bar bg-danger"
+                          style="width: 25%"
+                        ></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 class="fs-5">CSS</h3>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 60%"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 class="fs-5">JavaScript</h3>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 60%"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 class="fs-5">Bootstrap</h3>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 65%"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 class="fs-5">ReactJs</h3>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 50%"
+                      ></div>
+                    </div>
+                  </div>
+
+                  <div>
+                    <h3 class="fs-5">Python</h3>
+                    <div
+                      class="progress"
+                      role="progressbar"
+                      aria-label="Example 20px high"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                      style="height: 5px"
+                    >
+                      <div
+                        class="progress-bar bg-danger"
+                        style="width: 55%"
+                      ></div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="academic"
+                  role="tabpanel"
+                  aria-labelledby="academic-tab"
+                >
+                  <!-- <h3>Academic</h3> -->
+                  <div>
+                    <ul>
+                      <li class="mt-3">
+                        10th from Kendriya Vidyalaya, Ghaziabad with 10 CGPA,
+                        <span class="fw-bold">2017</span>.
+                      </li>
+                      <li class="mt-3">
+                        12th from Kendriya Vidyalaya, Ghazibad with 87%,
+                        <span class="fw-bold">2019</span>.
+                      </li>
+                      <li class="mt-3">
+                        B.Tech from Ajay Kumar Garg Engineering College with and
+                        aggregate of 75.5% ,<span class="fw-bold">2020-24</span
+                        >.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="experience"
+                  role="tabpanel"
+                  aria-labelledby="experience-tab"
+                >
+                  <!-- <h3></h3> -->
+                  <div>
+                    <ul>
+                      <li>
+                        3 Months Internship at DIGINIX AI IT Solution on web
+                        devlopment,2023.
+                      </li>
+                      <li>BootCamp on React and Js from Kg Coding academy.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About section ends -->
+
+    <!-- service section starts here -->
+    <section class="services py-5" id="services">
+      <div class="container-lg">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">What I Do</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col-md-6 col-lg-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p class="text-muted">
+                Web development involves building and maintaining websites, including design, coding, and programming to create interactive, functional online experiences.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-image"></i>
+              </div>
+              <h3>Creative Design</h3>
+              <p class="text-muted">
+                Creative design combines aesthetics and functionality to craft visually appealing, innovative solutions that enhance user experience and brand identity.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="service-item shadow-sm p-4 rounded bg-white">
+              <div class="icon my-3 text-danger fs-2">
+                <i class="fas fa-lightbulb"></i>
+              </div>
+              <h3>Competetive Programming</h3>
+              <p class="text-muted">
+                Competitive Programming (CP) involves solving complex problems using algorithms and data structures, enhancing problem-solving skills and coding efficiency.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- service section end here -->
+
+    <!-- portifolio section starts here -->
+    <section class="portifolio bg-white py-5" id="portifolio">
+      <h2 class="text-center fw-bold">My Latest Works</h2>
+      <div class="container py-5">
+        <div class="row g-4">
+          <!-- Card 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/newsapp.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">News Web App</h5>
+                <p class="card-text">
+                  A dynamic news website that aggregates and displays real-time
+                  news from multiple global channels, ensuring diverse and
+                  updated coverage.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/imgslider.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Image carousel</h5>
+                <p class="card-text">
+                  An image carousel is a rotating slider that showcases multiple
+                  images, allowing users to navigate through them interactively.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/accordian.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Accordian</h5>
+                <p class="card-text">
+                  An accordion is a vertically stacked list of items where each
+                  item can expand to reveal additional content when clicked.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/NotemakingApp.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Digital Notebook</h5>
+                <p class="card-text">
+                  A Digital Notebook allows users to create, organize, and store
+                  notes digitally, often with features like tagging and syncing.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/psswdgen.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Password Generator</h5>
+                <p class="card-text">
+                  A password generator is a tool that creates strong, random
+                  passwords to enhance security and protect personal information
+                  online.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img src="img/Agecal.png" class="card-img-top" alt="Card image" />
+              <div class="card-body">
+                <h5 class="card-title">Age Calculator</h5>
+                <p class="card-text">
+                  An age calculator determines a person's exact age by comparing
+                  their birthdate with the current date, providing years,
+                  months, and days.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card">
+              <img
+                src="img/weatherApp.png"
+                class="card-img-top"
+                alt="Card image"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Weather App</h5>
+                <p class="card-text">
+                  A weather app provides real-time weather updates, forecasts,
+                  and alerts, displaying temperature, humidity, wind speed, and
+                  precipitation data.
+                </p>
+                <a href="#" class="btn btn-primary">View in Action</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- portifolio section ends here -->
+
+    <!-- contact section starts Here -->
+    <section class="contacts py-5" id="contacts">
+      <div class="container-lg py-4">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="section-title text-center">
+              <h2 class="fw-bold mb-5">Contact Me</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-5">
+            <!-- Email Contact -->
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Email</h3>
+                <p class="text-muted m-0">arpitkumar592001@gmail.com</p>
+              </div>
+            </div>
+        
+            <!-- Phone Contact -->
+            <div class="contact-item d-flex mb-3">
+              <div class="icon fs-4 text-danger">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text ms-3">
+                <h3 class="fs-5">Phone</h3>
+                <p class="text-muted m-0">+91-9667854762</p>
+              </div>
+            </div>
+          </div>
+        
+        
+          
+          <!-- ******* -->
+          <div class="col-md-7">
+            <div class="contact-form">
+              <form >
+                <div class="row">
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Name" class=" form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+              <div class="col-lg-6 mb-4">
+                <input type="text" placeholder="Your Email" class=" form-control form-control-lg fs-6 border-0 shadow-sm">
+              </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                 <input type="text" placeholder="Subject" class=" form-control form-control-lg fs-6 border-0 shadow-sm">
+                </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-lg-12 mb-4">
+                 <textarea rows="5" placeholder="Your Message" class=" form-control form-control-lg fs-6 border-0 shadow-sm">
+                  </textarea>
+
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <button type="submit" class="btn btn-danger px-3 btn-danger">Send Message</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <!-- ******* -->
+        </div>
+    </section>
+    <!-- contact section  ends here -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
